@@ -24,6 +24,6 @@ app.get('/popular-tv-shows', (req, res)=>{
 })
 
 
-app.listen(`https://aonunwor.github.io/TMBD-project/`, ()=>{
+app.listen(8000, ()=>{
 	console.log("LISTENING ON PORT 8000!")
 })
